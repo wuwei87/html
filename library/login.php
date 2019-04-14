@@ -43,4 +43,12 @@ while(!feof($fp))
 	}
 }
 fclose($fp);
+if(file_exists("$DOCUMENT_ROOT/html/library/a.txt"))
+{
+	echo 'There are a.txt,is exists.';
+}
+else
+{
+	echo "There are currently no a.txt";
+}
 ?>
