@@ -1,0 +1,30 @@
+*{
+	/*初始化*/
+	margin:0;
+	padding: 0;	
+}
+body{
+	/* 100%窗口高度 */
+	height:100vh;
+	/* 弹性布局 居中 */
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.container{
+	/*绝对定位*/
+	position:absolute;
+	top: 40vh;
+}
+.loading{
+	/*执行动画:动画名 时长 贝塞尔曲 无限次播放 */
+	animation: rotate 2.5s cubic-bezier(0.75,0,0,5,1) infinite;
+}
+.loading{
+	width:100px;
+	height:100px;
+	display:block;
+	position:absolute;
+	background-color: #ff8f92;
+	border:
+}
